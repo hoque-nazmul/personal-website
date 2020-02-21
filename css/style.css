@@ -63,6 +63,12 @@ img {
     padding: 10px 30px;
     border-radius: 5px;
     font-size: 15px;
+    transition: 0.5s all ease;
+}
+
+.btn-link:hover {
+    background: #f11755;
+    color: #fff;
 }
 
 #biography-section {
@@ -98,7 +104,7 @@ img {
 }
 
 #client-section {
-    background-image: url("../images/footer-bg.png");
+    background-image: url("../images/biography-bg.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,3 +170,73 @@ img {
     font-size: 16px;
     margin-bottom: 20px;
 }
+
+#contact-section {
+    background-image: url("../images/footer-bg.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-info {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-info h3 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact-info input {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #EC4C79;
+}
+
+.contact-info textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #EC4C79;
+    font-family: 'Roboto';
+}
+
+.submit-button {
+    text-decoration: none;
+    color: #FAD1D1;
+    background-image: linear-gradient(90deg, #EC5195, #ED4B72);
+    display: block;
+    text-align: center;
+    padding: 15px 8px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 2px;
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.submit-button:hover {
+    background: #EC4C79;
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    padding-top: 12px;
+    background-color: #eaebec;
+    color: #949494;
+}
+
