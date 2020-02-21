@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+img{
+    width: 100%;
+}
+
+.section-area{
+    padding: 80px 0px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0% 10%;
+    overflow: hidden;
+}
+
+.wrap{
+    width: 48%;
+    padding: 0% 1%;
+    float: left;
+}
+
+#welcome-section{
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap h3{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 110px;
+    margin-bottom: 10px;
+}
+
+.wrap h2{
+    font-size: 60px;
+    font-weight: 900;
+    color: #EC4C7A;
+    margin-bottom: 30px;
+}
+
+.wrap p {
+    color: #7B7B7B;
+    font-size: 15px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
+
+.btn-link {
+    background: #EC4C79;
+    color: #FAD1E2;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
