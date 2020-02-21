@@ -3,55 +3,56 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Roboto';
 }
 
-img{
+img {
     width: 100%;
 }
 
-.section-area{
+.section-area {
     padding: 80px 0px;
 }
 
-.wrapper{
+.wrapper {
     width: 80%;
     margin: 0% 10%;
     overflow: hidden;
 }
 
-.wrap{
+.wrap {
     width: 48%;
     padding: 0% 1%;
     float: left;
 }
 
-#welcome-section{
+#welcome-section {
     background-image: url(../images/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.wrap h3{
+.wrap h3 {
     font-size: 40px;
     font-weight: 400;
     margin-top: 110px;
     margin-bottom: 10px;
 }
 
-.wrap h2{
+.wrap h2 {
     font-size: 60px;
     font-weight: 900;
     color: #EC4C7A;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .wrap p {
     color: #7B7B7B;
     font-size: 15px;
     line-height: 1.6em;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    padding-top: 10px;
 }
 
 .btn-link {
@@ -64,3 +65,34 @@ img{
     font-size: 15px;
 }
 
+#biography-section {
+    background-image: url("../images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.biography-content {
+    margin-left: 60px;
+    padding-top: 40px;
+}
+
+#work-section {
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.works h3 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.work-item {
+    float: left;
+    width: 30%;
+    margin: 0% 1%;
+}
